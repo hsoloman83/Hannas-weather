@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class='wrapper'>
+		<search>
+			<form>
+				<input class='searchbar transparent'id='search'type='text'placeholder='where do you want to go!'/>
+				<input class='button transparent'id='button'type="submit"value='LETS GO'/>
+		    </form>
+		</search>
+		<div class='panel'>
+			<h2 class='city' id='city'></h2>
+			<div class='weather' id='weather'>
+				<div class='temperature' id='temperature'>
+					<h1 class='temp' id='temp'><i id='condition'></i>
+					<span id='num'></span>
+					<a class='fahrenheit active' id='fahrenheit' href="#">&deg;F</a>
+					<a class='celsius' id='celsius' href="#">&deg;C</a></h1>
+		      	</div>
+		    </div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
